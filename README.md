@@ -1,2 +1,61 @@
-# Widening-Participation-in-UK-s-HE
-I will carry out my own Data Analysis to compare it later with the official Headline facts and figures published by the DfE.
+# **Widening Participation in Higher Education 2021/22 Academic Year**
+
+In this project, I will carry out my own Data Analysis and estimates of this Dataset to compare it later with the official Headline facts and figures published by the DfE on progression to higher education (HE) by age 19 for state-funded pupils by personal characteristics and for A level and equivalent students, by school or college type, who progressed to HE by age 19, with breakdowns for high tariff higher education providers.
+
+
+## **Description of the Dataset**
+This document describes the data included in the Widening Participation in Higher Education: 2021/22 Official Statistics release’s underlying data files.
+
+The methodology document attached to this release should be referenced alongside this data. It provides information on the data sources, their coverage and quality as well as explaining methodology used in producing the data.
+
+## **Coverage**
+
+The release covers two measures of progression to Higher Education by age 19.
+
+The first shows progression to HE by pupil characteristics for pupils aged 15 in English state-funded schools and special schools (including non-maintained special schools).
+
+The second relates to progression to HE by school type for pupils aged 17 who were entered for A levels or equivalent level 3 qualifications at English schools and colleges.
+
+## **File formats and conventions**
+
+### **Rounding**
+
+We are removing rounding and suppression of data where possible in order to maximise the utility of the statistics while minimising the risk of disclosure.
+
+More information about the Departmental policy on confidentiality can be found here:
+
+External_Confidentiality_Policy (https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/773124/External_confidentiality_policy.pdf)
+
+Data relating to Children in Need and Looked After children is rounded to the nearest percentage for rates and to the nearest 10 for counts of pupils given the sensitivity of these statistics.
+
+### **Conventions**
+
+The following convention is used throughout the underlying data.
+
+‘x’ Not applicable
+
+‘c’ Confidential
+
+## **Data files**
+
+All Characteristics
+
+Filename: all_characteristics.csv
+Geographic levels: National
+Time period: 2009/10 to 2021/22
+Content summary: Progression to HE by pupil characteristics
+
+Variable names and descriptions for this file are provided below:
+
+Variable name                      |  Variable description
+---------------------------------  |  -----------------------------------
+characteristic_detail              |  characteristic
+high_tariff_progression_rate       |  HE Progression Rate (High Tariff)
+number_of_he_students              |  Number of HE Students
+number_of_high_tariff_he_students  |  Number of HE Students (High Tariff)
+number_of_students                 |  Number of Pupils
+progression_rate                   |  HE Progression Rate
+
+__Footnotes__:
+
+1. Note that progression rates can be volatile over time due to the very small number of pupils in some categories. This is particularly the case for Gypsy/Roma and Traveller of Irish Heritage pupils
